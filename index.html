@@ -328,13 +328,6 @@
             <div class="col-md-9">
               <label class="form-label fw-bold">Yarışmadaki Takımlar Listesi</label>
               <textarea id="teamTextarea" class="form-control" rows="10" placeholder="Örn:
-4 Silahşörler
-Nahita
-Şevko Acil
-Noktua
-Primum non nocere
-BezmiTeam
-PAÜ Resüsiteam
 Konya City
 Nabız yok biz varız
 9'uncu Senfoni
@@ -372,8 +365,8 @@ Nabız yok biz varız
           <hr>
           <!-- Kongre Banner -->
 <div class="rules-banner">
-  <img src="https://acil42.com/wp-content/uploads/2026/02/Ekran-Resmi-2026-02-13-18.11.12.png"
-       alt="April Congress 2026">
+  <img src="https://acil42.com/wp-content/uploads/2026/04/Dosya.png"
+       alt="ATUDER_EPAT_Logo">
  
 </div>
            <hr>
@@ -829,7 +822,7 @@ Nabız yok biz varız
     categoryKey: "SARI",
     question: "Akut iskemik inmede IV alteplaz için kesin kontrendikasyon olmayan aşağıdakilerden hangisidir?",
     options: { A: "18 yaş altı olmak", B: "48 saat içerisinde düşük molekül ağırlıklı heparin kullanılması", C: "Son iyi görülme halinin 4,5 saatten daha önce olması", D: "Hiperglisemi varlığı" },
-    answer: "E"
+    answer: "D"
   },
   {
     id: "SARI-013",//yazıldı
@@ -1718,14 +1711,17 @@ function resetAll(){
 
     $('btnDemoFill').addEventListener('click', ()=>{
       $('teamTextarea').value = [
-        'Konya City',
-        'Ankara Resüs',
-        'İzmir Şok',
-        'Bursa Monitor',
-        'Antalya Triage',
+        '4 Silahşörler',
+        'Nahita',
+        'Şevko Acil',
+        'Noktua',
+        'Primum non nocere',
         'Samsun USG',
-        'Adana Travma',
-        'İstanbul EKG'
+        'BezmiTeam',
+        'PAÜ Resüsiteam',
+        'Konya City',
+        'Nabız yok biz varız',
+        "9'uncu Senfoni"
       ].join('\n');
       showScreen('screenTeams');
     });
